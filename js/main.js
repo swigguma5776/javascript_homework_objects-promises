@@ -27,11 +27,12 @@ function favFoods(person){
             console.log(`My favorite ${Object.keys(person)[i]} is: \n`)
             console.log(Object.values(person)[i])
         }
-    }    
+    } 
+    console.log(Object.values(person.shakes[0]).forEach(element => console.log(element)))   
 }
 
 console.log(favFoods(person3))
-// console.log(Object.values(person3.shakes[0]).forEach(element => console.log(element)))
+
 
 //=======Exercise #2=========//
 /*
